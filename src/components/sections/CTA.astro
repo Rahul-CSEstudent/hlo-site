@@ -36,14 +36,14 @@ import Paragraph from "../shared/Paragraph.astro";
             ></span>
           </div>
       </div>
-      <div class="mx-auto text-center max-w-xl md:max-w-2xl relative">
+      <div class="mx-auto flex flex-col text-center items-center justify-center max-w-xl md:max-w-2xl relative">
         <h1
           class="text-3xl/tight sm:text-4xl/tight md:text-5xl/tight
-          font-bold text-heading-1"
+          font-bold text-heading-1 mb-5"
         >
-        From Our<span class="text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600"> CEO's</span> Desk
+        From Our<span class="text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600"> CEO's</span> Desk 
         </h1>
-       
+        <img class="rounded-xl" src="./images/avr.webp" alt="img" width={250} height={380}></img>
         <Paragraph className={"pt-10"}>
           As the Founder and current CEO of Hlo, We are honored to lead this dynamic conglomerate, where innovation meets storytelling, and where the future is both powered by technology and anchored in timeless narratives.
         </Paragraph>
@@ -54,7 +54,7 @@ import Paragraph from "../shared/Paragraph.astro";
 
         <div class="mx-auto max-w-md sm:max-w-xl pt-10">
           <Button variant={"primary"}>
-            <span class="text-white relative z-[5]">Join us</span>
+            <span class="text-white relative z-[5]"> Join Your Journey</span>
           </Button>
         </div>
       </div>
